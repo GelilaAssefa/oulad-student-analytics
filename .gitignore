@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv
+venv/
+
+# Data (too large for GitHub — regenerated locally)
+data/oulad.db
+
+# Reports (generated locally)
+docs/reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
