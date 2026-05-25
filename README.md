@@ -1,4 +1,4 @@
-# 📚 OULAD Student Analytics
+#  OULAD Student Analytics
 
 > **A data analytics portfolio project using real Open University student data to explore outcomes, equity gaps, and engagement patterns across 32,593 students.**
 
@@ -16,15 +16,15 @@ This project analyzes the **Open University Learning Analytics Dataset (OULAD)**
 
 The goal is to answer key institutional questions using **SQL + Python + interactive visualizations**:
 
-- 🎓 What percentage of students pass, fail, or withdraw?
-- ⚖️ Are there equity gaps by gender, disability, or socioeconomic status?
-- 🖱️ Does online engagement (VLE clicks) predict student success?
-- 📘 Which courses have the highest/lowest pass rates?
-- 🔁 Do students who retake courses perform better?
+- What percentage of students pass, fail, or withdraw?
+- Are there equity gaps by gender, disability, or socioeconomic status?
+- Does online engagement (VLE clicks) predict student success?
+- Which courses have the highest/lowest pass rates?
+- Do students who retake courses perform better?
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 oulad-student-analytics/
@@ -45,7 +45,7 @@ oulad-student-analytics/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 ```bash
@@ -56,10 +56,10 @@ pip install -r requirements.txt
 
 ### 2. Download the Data
 Get the OULAD dataset (free):
-👉 https://analyse.kmi.open.ac.uk/open_dataset
+ https://analyse.kmi.open.ac.uk/open_dataset
 
 Or from Kaggle:
-👉 https://www.kaggle.com/datasets/anlgrbz/student-demographics-online-education-dataoulad
+ https://www.kaggle.com/datasets/anlgrbz/student-demographics-online-education-dataoulad
 
 Place the CSV files in a folder and update the path in `src/utils/load_data.py`:
 ```python
@@ -79,7 +79,7 @@ Open **http://localhost:8050**
 
 ---
 
-## 🗄️ SQL Queries
+## SQL Queries
 
 The project uses **12 SQL queries** against a local SQLite database:
 
@@ -117,7 +117,7 @@ ORDER BY avg_early_clicks DESC;
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 The interactive Plotly Dash dashboard has 4 tabs:
 
@@ -128,7 +128,7 @@ The interactive Plotly Dash dashboard has 4 tabs:
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 - Students who click more in the **first 30 days** are significantly more likely to pass
 - Students with **disabilities** have slightly lower pass rates, suggesting a need for targeted support
@@ -138,7 +138,7 @@ The interactive Plotly Dash dashboard has 4 tabs:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -151,7 +151,7 @@ The interactive Plotly Dash dashboard has 4 tabs:
 
 ---
 
-## 📄 Data Citation
+## Data Citation
 
 Kuzilek J., Hlosta M., Zdrahal Z. (2017) *Open University Learning Analytics dataset*. Scientific Data, 4:170171. https://doi.org/10.1038/sdata.2017.171
 
@@ -159,4 +159,3 @@ Licensed under CC BY 4.0 — real anonymized student data, no personal informati
 
 ---
 
-*Built as a portfolio project demonstrating SQL querying, Python EDA, and interactive dashboard development with real higher education data.*
