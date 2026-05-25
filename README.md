@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes the **Open University Learning Analytics Dataset (OULAD)** — a real, publicly available dataset of 32,593 anonymized students across 22 courses at the Open University UK.
 
@@ -130,7 +130,7 @@ The interactive Plotly Dash dashboard has 4 tabs:
 
 ##  Key Findings
 
-- Students who click more in the **first 30 days** are significantly more likely to pass
+- Students who engage more with the online learning platform in the first 30 days are significantly more likely to pass.
 - Students with **disabilities** have slightly lower pass rates, suggesting a need for targeted support
 - **Deprivation level (IMD)** correlates with outcomes — students from more deprived areas withdraw at higher rates
 - Pass rates vary **significantly by course** — some courses lose over 30% of students to withdrawal
